@@ -1,0 +1,58 @@
+div.banner{
+  background-color:#1d63d1;
+  width: 100%;
+  height: 90px;
+  margin-bottom: 20px;
+  padding-top: 5px
+}
+p{
+  font-size: 150%;
+  text-align: left;
+  margin-bottom: 40px;
+  margin-top: 10px
+}
+h1{
+  color: white;
+  margin-top: 25px;
+     }
+     li{
+         list-style-type: none;
+       }
+       a.higli{
+         font-weight: bold;
+       }
+
+      li.boton:hover{
+        opacity: 0.8;
+      }
+
+   @media (max-width:575.98px){
+       #sanpeter{
+         margin: 0px auto;
+       }
+
+   }
+   @media (min-width:576px){
+
+   }
+   table, th, td {
+     border: 1px solid black;
+     border-collapse: collapse;
+   }
+   th, td {
+     padding: 5px;
+     text-align: center;
+     font-size: 120%;
+   }
+
+
+   img {
+     width: 100%
+   }
+
+   img:hover {
+     opacity: 0.8;
+   }
+   img ~ p {
+     font-weight: normal;
+   }
